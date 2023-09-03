@@ -1,8 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;netcoreapp3.1</TargetFrameworks>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Anton Talashmanov</Authors>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Company>tinymosi</Company>
+        <Product>MediatR.Contracts.CQRS</Product>
+        <PackageTags>cqrs, cqs, mediatr, query, command, event</PackageTags>
+        <PackageId>MediatR.Contracts.CQRS</PackageId>
+        <Title>MediatR.Contracts.CQRS</Title>
+        <Description>CQRS interface aliases for .NET MediatR package</Description>
+        <Copyright>Copyright (c) Anton Talashmanov 2023</Copyright>
+        <PackageProjectUrl>https://github.com/M0slike/MediatrCQRS</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/M0slike/MediatrCQRS</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Version>1.0.0</Version>
+        <PackageLicenseUrl>https://github.com/M0slike/MediatrCQRS/blob/main/LICENSE</PackageLicenseUrl>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
     </PropertyGroup>
+
 
     <ItemGroup>
         <PackageReference Include="MediatR" Version="9.0.0"/>
